@@ -1,0 +1,206 @@
+/* Estilos para el header */
+.cabeza {
+    background-color: #036; /* Azul oscuro */
+    color: white;
+}
+
+/* Logo */
+.logo-navbar {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Barra de búsqueda */
+form .form-control {
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+form .btn {
+    border-radius: 20px;
+}
+
+/* Botones de la barra de navegación */
+.navbar .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #003366;
+}
+
+.navbar .btn-primary {
+    background-color: #646464;
+    border-color: #ffffff;
+}
+
+.navbar .btn-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+/* Estilo para la barra de navegación principal */
+.custom-navbar {
+    background-color: #002a4a; /* Azul oscuro para el fondo */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo para los enlaces de navegación */
+.custom-navbar .nav-link {
+    color: white; /* Color de texto para los enlaces */
+    text-decoration: none;
+    font-weight: bold; /* Negrita */
+    padding: 8px; /* Espaciado interno */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffc107; /* Dorado al pasar el cursor */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo específico para "Puntos de venta" */
+.nav-link-puntos {
+    background-color: #036; /* Azul oscuro personalizado */
+    color: white; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 10px; /* Espaciado interno */
+}
+
+.nav-link-puntos:hover {
+    background-color: #006f9c; /* Azul más claro */
+    color: #ffffff;
+}
+
+/* Estilo específico para "Ayuda" */
+.nav-link-ayuda {
+    background-color: #036; /* Azul oscuro */
+    color: white; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 10px; /* Espaciado interno */
+}
+
+.nav-link-ayuda:hover {
+    background-color: #008000; /* Verde más claro */
+    color: white;
+}
+
+/* Estilo para la sección de filtros */
+.filters {
+    background-color: #002a4a; /* Azul oscuro */
+    padding: 1rem 0;
+}
+
+.filters .dropdown .btn {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #002a4a; /* Texto azul oscuro */
+    border: 1px solid #002a4a; /* Borde azul oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.filters .dropdown .btn:hover {
+    background-color: #ffc107; /* Fondo dorado al pasar el cursor */
+    color: #002a4a; /* Texto azul oscuro */
+}
+
+.filters .dropdown-menu {
+    background-color: #002a4a; /* Fondo azul oscuro */
+    border: 1px solid #ffc107; /* Borde dorado */
+}
+
+.filters .dropdown-item {
+    color: white; /* Texto blanco */
+    font-weight: bold;
+}
+
+.filters .dropdown-item:hover {
+    background-color: #ffc107; /* Fondo dorado */
+    color: #002a4a; /* Texto azul oscuro */
+}
+
+/* Estilo para el título de "Eventos en tu Ciudad" */
+.featured-events-title {
+    background-color: #002a4a; /* Azul oscuro */
+    color: white; /* Texto blanco */
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para las tarjetas de eventos */
+.featured-events .card {
+    border: 1px solid #002a4a; /* Borde azul oscuro */
+    background-color: white; /* Fondo blanco para las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para que las imágenes se ajusten */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.featured-events .card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.featured-events .card-title {
+    color: #002a4a; /* Títulos en azul oscuro */
+    font-weight: bold;
+}
+
+.featured-events .card-text {
+    color: #646464; /* Texto en gris oscuro */
+}
+
+.featured-events .btn {
+    background-color: #002a4a; /* Azul oscuro */
+    color: white; /* Texto blanco */
+    border: 1px solid #002a4a; /* Borde azul oscuro */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+.featured-events .btn:hover {
+    background-color: #ffc107; /* Fondo dorado */
+    color: #002a4a; /* Texto azul oscuro */
+}
+
+/* Ajuste para las imágenes */
+.featured-events .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    border-bottom: 3px solid #002a4a; /* Línea decorativa */
+}
+
+.footer {
+    font-size: 0.9rem;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+.footer a {color: white}
+.footer a:hover {
+    color: #ffc107; /* Amarillo */
+    text-decoration: underline;
+}
+
+.whatsapp {
+    font-weight: bold;
+    background-color: #0056b3; /* Azul */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.social-icons a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.bg-secondary {
+    background-color: #003366; /* Azul oscuro */
+}
